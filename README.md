@@ -18,6 +18,7 @@
         .image { width: 100%; height: auto; max-width: 500px; margin: 20px auto; display: block; }
     </style>
 </head>
+    <meta name="google-site-verification" content="iVernEiSUhlHJMyvH_6RkhgBj9ZbQJk6KrEuW6ANEQc" />
 <body>
 
 <!-- Шапка сайта -->
