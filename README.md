@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Мой Сайт</title>
+    <!-- Метатег для подтверждения Google -->
+    <meta name="google-site-verification" content="iVernEiSUhlHJMyvH_6RkhgBj9ZbQJk6KrEuW6ANEQc" />
     <style>
         /* Основные стили */
         body { font-family: Arial, sans-serif; margin: 0; padding: 0; color: #333; background-color: #f4f4f4; }
@@ -18,7 +20,6 @@
         .image { width: 100%; height: auto; max-width: 500px; margin: 20px auto; display: block; }
     </style>
 </head>
-    <meta name="google-site-verification" content="iVernEiSUhlHJMyvH_6RkhgBj9ZbQJk6KrEuW6ANEQc" />
 <body>
 
 <!-- Шапка сайта -->
@@ -36,24 +37,38 @@
     <!-- Раздел "Обо мне" -->
     <section id="about">
         <h2>Обо мне</h2>
-        <p>Привет! Меня зовут Тимофей. Я веб-разработчик, занимаюсь созданием и разработкой сайтов. У меня есть опыт работы с различными языками программирования и фреймворками.</p>
+        <p>Привет! Меня зовут [Ваше имя]. Я веб-разработчик, занимаюсь созданием и разработкой сайтов. У меня есть опыт работы с различными языками программирования и фреймворками.</p>
+        <img src="https://via.placeholder.com/500" alt="Фото обо мне" class="image">
+    </section>
 
-    <!-- Раздел "Мои профили" -->
+    <!-- Раздел "Портфолио" -->
     <section id="portfolio">
         <h2>Портфолио</h2>
-        <p>Здесь вы можете увидеть все што сделал:</p>
+        <p>Здесь вы можете увидеть мои проекты:</p>
         <ul>
-            Проект 1: <a href="#">https://www.youtube.com/@Marmelad_games-y2i
-            Проект 2: <a href="#">Вот канал моего друга https://www.youtube.com/@user-kw6zu7cx6y знаю ето криндж только не говорите ему...
-            Проект 3: <a href="#">А тут доделиваю...
+            <li>Проект 1: <a href="#">Ссылка на проект</a></li>
+            <li>Проект 2: <a href="#">Ссылка на проект</a></li>
+            <li>Проект 3: <a href="#">Ссылка на проект</a></li>
         </ul>
     </section>
 
     <!-- Раздел "Контакты" -->
+    <section id="contact">
+        <h2>Контакты</h2>
+        <p>Свяжитесь со мной:</p>
+        <ul>
+            <li>Email: <a href="mailto:example@example.com">example@example.com</a></li>
+            <li>Телефон: +7 (123) 456-78-90</li>
+            <li>Социальные сети:
+                <a href="#">ВКонтакте</a>, <a href="#">Facebook</a>, <a href="#">Instagram</a>
+            </li>
+        </ul>
+    </section>
+</div>
 
 <!-- Футер сайта -->
 <footer>
-    <p>&copy; 2024 Тимофей. Все права защищены.</p>
+    <p>&copy; 2024 [Ваше имя]. Все права защищены.</p>
 </footer>
 
 </body>
